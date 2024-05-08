@@ -5,3 +5,5 @@ edl_azure_service_tags
 update_fqdn_legacy
 update_ip_legacy
 .DS_Store
+*lambda_package.zip
+*.csv
