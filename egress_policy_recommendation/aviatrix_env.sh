@@ -1,0 +1,4 @@
+export AVIATRIX_CONTROLLER_IP="1.1.1.1"
+export AVIATRIX_USERNAME="admin"
+export AVIATRIX_PASSWORD="password"
+export AVIATRIX_COPILOT_IP="2.2.2.2"

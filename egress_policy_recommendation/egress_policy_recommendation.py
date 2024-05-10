@@ -25,7 +25,7 @@ def main():
                         default=os.getenv("AVIATRIX_PASSWORD"))
     parser.add_argument('--policy_number', type=int, help='Policy Priority Number', default=0)
     parser.add_argument('--export_to_csv', type=bool, help='Export to CSV', default=False)
-    parser.add_argument('--relative_start_date', type=int,
+    parser.add_argument('--relative_start_date', type=float,
                         help='Relative start date in days', default=1)
     args = parser.parse_args()
 
