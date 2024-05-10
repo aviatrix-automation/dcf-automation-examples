@@ -7,7 +7,7 @@ A user can optionally output the raw logs, or the pre-filtered policies.
 
 It is recommended to focus on a single policy by using the "--policy_number" option.  Maximum number of logs for download in a single pass is 1M.
 
-##Example Usage:
+## Example Usage:
 Edit "aviatrix_env.sh" and load environment variables for the Aviatrix Environment.
 ```
 source aviatrix_env.sh
