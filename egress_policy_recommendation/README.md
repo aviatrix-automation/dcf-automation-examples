@@ -1,5 +1,12 @@
 # Egress Policy Recommendation
 
+This script downloads large amounts of Aviatrix DCF logs from CoPilot and analyzes them for unique domains and IPs to help with refining Egress DCF policy.  The output of the script is a JSON where the key is a Port/Proto combination, and the destination is a set of FQDNs or IPs seen.
+
+A user can optionally output the raw logs, or the pre-filtered policies.
+
+
+It is recommended to focus on a single policy by using the "--policy_number" option.  Maximum number of logs for download in a single pass is 1M.
+
 Example Usage:
 Edit "aviatrix_env.sh" and load environment variables for the Aviatrix Environment.
 ```
